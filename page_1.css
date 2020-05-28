@@ -91,13 +91,15 @@ ul{
     margin-left: 24%;
     width:50%;
     align-content: center;
+    background: white;
+    opacity: 0.8;
     color: white;
     float: left;
      border: 1px solid white;
     border-radius: 25px;
     transition: box-shadow .4s;
     z-index: 5;
-    background:  ;
+    background: #0b1728 ;
 }
 
 ul:hover{
@@ -130,9 +132,10 @@ ul li a{
     text-decoration: none;
      color:  white; 
     display: inline-block; 
-   z-index: 1; 
-   padding:0% 45%;  
-  
+   z-index: 20; 
+    opacity: none;
+   padding:0% 45%;
+    font-weight: bold;
    margin: -2em; 
       margin-top: 5px;
     height: 35px;
