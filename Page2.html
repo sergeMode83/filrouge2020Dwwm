@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="Design.css">
+    <link type="text/css" rel="stylesheet" href="Page2.css">
+    <link type="text/css" rel="stylesheet" href="Ressource_code/aos-master/aos-master/dist/aos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+    <!--     
+    <table><tr><td>Emissions mondiales de tetrachlorure de carbone </td><td><div id="nombre_tonne_co2" class="en_tete" style="font-size: larger;text-align: center;margin:auto;">24.5555</div></td>
+    <td id="test">Kilos/s</td></tr></table>
+    <button type="button" onclick="increment('nombre_tonne_co2',1.24)">Ajouter</button> -->
+    <div class="container-fluid">
+        <div class="row" style="height:100vh;">
+            <div class="col-lg-3 border" style="padding:0;">
+                <div class="speech_container">
+                    <h2>D'ou est ce qu'on part ? </h2>
+                    <p>POUR EVOLUER : <br><br> il faut passer par la pleine <strong>acceptation et constation de la réalité </strong>.<br><br><span style="font-style: italic;font-size: larger;">Puis</span></p> <ul><li>Sans la
+                        voir comme une fatalité</li><li> ni se résigner</li><li>ni se sentir accablé</li></ul><p>Il faut <em>faire jaillir l'espoir d'un monde meilleurs</em></p>
+                    <div class="container-fluid">
+                        <div class="row" style="">
+                            <div class="col-md-6" style="padding:0"> <a href="Page1.html"><button class="btn btn-light btn-block">Menu principal</button></a></div>
+                            <div class="col-md-6" style="padding:0"><a href="page3.html"><button class="btn btn-light btn-block">Ou on vas ?</button></a></div>
+                         
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-9 h-100" style="overflow-y: scroll;">
+                <div class="diapo">
+                    <img src="Ressource_image/deforestation-405749_1920.jpg ">
+                    <div id="diapo1" class="shrink-content">
+                        <h1 style="color:white;"></h1>
+                        <div class="description"></div>
+                    </div>
+                </div>
+                <div class="diapo">
+                    <img src="Ressource_image/smoke-258786_1920.jpg ">
+                    <div id="diapo2" class="shrink-content">
+                        
+                        <div class="description"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+        function increment() {
+            var objet = document.getElementById(id);
+            // objet.innerHTML = parseFloat(objet.innerHTML) + amount;
+            $1 = parseFloat(objet.innerHTML).toFixed(2);
+            objet.innerHTML = parseFloat($1) + 1.2;
+        }
+
+        setInterval(increment(), 1000);
+
+
+
+    </script>
+
+</body>
+
+
+</html>

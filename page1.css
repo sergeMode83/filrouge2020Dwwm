@@ -1,0 +1,285 @@
+button{
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 0 ;
+    margin: 0px ;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.header{
+    background-image: url('Ressource_image/earth.jpeg');
+    color: white;
+    text-shadow: white 0 0 10px;
+    background-position: 70% 50%;
+
+}
+
+.en_tete{
+    height:100vh;
+    box-shadow: black inset 0px 0px 40%;
+    color:blue;
+}
+
+.menu-principal{
+    box-shadow: black 0 0 10px 1px;
+}
+
+.navbar li{
+    transition: width 2s;
+    text-align: center;
+}
+
+#menu_item_1:hover{
+    background-color: cornflowerblue;
+    border-radius: 1em;
+    box-shadow: cornflowerblue 0 0 1px,rgb(254, 254, 255) 0 5px 10px 2px;
+    width: 350px;
+}
+
+#menu_item_2:hover{
+    background-color: rgb(65, 127, 241);
+    border-radius: 1em;
+    box-shadow: cornflowerblue 0 0 1px,rgb(254, 254, 255) 0 5px 10px 2px;
+    width: 400px;
+}
+
+.navbar li:active{
+    background-color: black;
+    border-radius: 1em;
+    box-shadow: cornflowerblue inset 0 0 1px,rgb(254, 254, 255) 0 5px 10px 2px;
+}
+
+.diapo-first-bg{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-type: proximity;
+}
+
+.diapo-first-bg img{
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.shrink-content{
+    width: 75%;
+    height:75%;
+    box-shadow: black 0 0 15px;
+    background-image: url('Ressource_image/earth.jpg');
+    background-position:50% 50%;
+    background-size: cover;
+    filter: none;
+    position: relative;
+}
+
+.description{
+    font-size: large;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    text-shadow: white 0 0 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+#carousel_sommaire .carousel-inner{
+    justify-content: center;
+    align-items:center;
+
+}
+
+#carousel_sommaire .carousel-item{
+
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    height: 40vh;
+}
+
+#carousel_sommaire .carousel-item h1{
+    color: white;
+    text-shadow: 0 0 10px white,0 0 20px black;
+    margin-top:2%;
+}
+
+#carousel_sommaire .carousel-item h5 ,#carousel_sommaire .carousel-item p{
+    
+    text-shadow: 0 0 10px white,0 0 20px black;
+    background-color: rgba(0, 0, 0, 0.596);
+    box-shadow: 0 0 15px 1 rgba(0, 0, 0, 0.219);
+    border-radius: 1em ;
+}
+
+#slide1{
+    background-image: url('Ressource_image/earth.jpeg');
+
+}
+
+#slide2{
+ 
+    background-image: url('Ressource_image/Systeme.jpg');
+
+
+}
+#slide3{
+
+    background-image: url('Ressource_image/globalization.jpg');
+  
+
+}
+
+#slide4{
+
+    background-image: url('Ressource_image/Liberté.jpeg');
+  
+
+}
+
+.sommaire{
+    background: rgb(164,161,219);
+    background: -moz-linear-gradient(0deg, rgba(164,161,219,1) 0%, rgba(0,22,194,0.1600841020001751) 5%, rgba(253,255,255,1) 84%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(164,161,219,1) 0%, rgba(0,22,194,0.1600841020001751) 5%, rgba(253,255,255,1) 84%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(164,161,219,1) 0%, rgba(0,22,194,0.1600841020001751) 5%, rgba(253,255,255,1) 84%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a4a1db",endColorstr="#ffffff",GradientType=1); 
+    display: flex   ;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.sommaire_index_categorie_title{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px white,0 0 5px black;
+    margin-top:2%;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 100%;
+    text-align: center;
+    margin:0;
+    height:30px;
+
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+.sommaire_index_categorie_title + h5{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px white,0 0 5px black;
+    margin-top:2%;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 100%;
+    text-align: center;
+    margin:0;
+    height:30px;
+    box-shadow: 0 0 5px;
+    position: relative;
+    z-index: 9999;
+    font-size: 1em;
+    padding: 0;
+}
+
+.sommaire_index-container{
+    background-color: rgba(255, 255, 255, 0.651);
+    box-shadow: rgba(30, 7, 51, 0.692) 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 1em;
+    margin: 20px;
+}
+
+#index4{
+
+}
+
+.img{
+    
+    background-size: cover;
+box-shadow: 0 0 5px;
+border-radius: 50%;
+height:150px;
+width: 150px;
+}
+
+#img1{
+    background-image: url('Ressource_image/index.pourquoi_640.jpeg');
+}
+
+#img2{
+    background-image: url('Ressource_image/origin_640.jpg');
+}
+
+#img3{
+    background-image: url('Ressource_image/business_640.jpg');
+}
+
+#img4{
+    background-image: url('Ressource_image/human_640.jpg');
+}
+
+.carousel_index {
+}
+
+
+.sommaire_index-container li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 0.2em;
+    margin:0.5em;
+    list-style-image: url("Ressource_icone/open-iconic-master/open-iconic-master/png/arrow-right-2x.png");
+}
+
+
+.sommaire_index_title{
+    color: black;
+    text-shadow: 0 0 10px white,0 0 2px black;
+    margin-top:2%;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.616);
+    width: 100%;
+    text-align: center;
+    margin:0;
+    height:30px;
+    font-style: italic;
+}
+
+.carousel-container{
+    display:block;
+    background-color: cornflowerblue;
+    width: 100%;
+    box-shadow: 0 5px 5px;
+}
+
+.sommaire_index-container p{
+    color: black;
+    text-shadow: 0 0 10px white,0 0 20px black;
+    
+}
+
+.carousel-container .carousel-item h5{
+    text-align:center;
+    font-size:1.5em;
+    color:white;
+}
+
+.carousel-container .carousel-item{
+    height:70px;
+}
+
+#index4{
+    min-height: 100%;
+}
