@@ -4,19 +4,37 @@
 
  <head>
 
-<meta charset="utf-8">
-     <link rel="stylesheet" href="page_1.css">
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+   <meta charset="utf-8">
      
+       <link rel="stylesheet" href="index.css">
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+       <script>
+         window.onload = function(){
+           
+             transition_1.style.zIndex="1000";
+             transition_1.style.transition="0.2s";
+       
+           
+               setTimeout(function(){ 
+                      transition_1.style.opacity="0";
+                      transition_1.style.zIndex="0";
+                 
+                            },10);
+                         };
+     </script>
+     
+</head>
 
 
-    </head>
-
-
-    <body id="body_index">
+<body id="body_index">
+        
+    
+    <div id="photo_background_1"><img src="image/moon-2048727.jpg"></div><div id="photo_background_2"></div>
  
           <header id="header_index">      
-            <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <h5>
+                <p> Bienvenue sur ma page personnel qui me represent et me resemble en voyant ce background ça saute tout de suite au yeux je suis un fan de science fiction et tout ce qui concerne l'astronomie et l'univers en general, je n'aurais pas assez de place pour placer tout mes passions tellement j'en est, j'ai donc décider de vous montrer quelque 'une qui me tiennent a coeur surtout dans le dommaine de la technologie , bienvenue dans mon univers je vous laisse vous balader dans les different section si dessous ! <p>
             
         
           </header>
@@ -25,21 +43,201 @@
                  
         <div id="block_1">
                 
-              <div id="border_1"> <h4 class="tittle_passions">Jeux Video</h4> <div id="img_1"> <img src="image/image_jv.jpg"></div> <button class="button_index">Click</button> </div> 
+              <div id="border_1"> <h4 class="tittle_passions">Jeux Video</h4> <div id="img_1"> <img src="image/image_jv.jpg"></div> <button id="button_index">Click</button> </div> 
                     
             
             
-            <div id="border_2"> <h4 class="tittle_passions">Intelligence Artificielle</h4> <div id="img_2"><img src="image/intelligence_artificielle.png"> </div><button class="button_index" onclick="location.href='ia.html'">Click</button>  </div>
+            <div id="border_2"> <h4 class="tittle_passions">Intelligence Artificielle</h4> <div id="img_2"><img src="image/intelligence_artificielle.png"> </div><button id="button_index_2" >Click</button>  </div>
                        
             
             
             
             
-            <div id="border_3"> <h4 class="tittle_passions">Blockchain</h4> <div id="img_3"><img src="image/blockchain_screen.jpg"> </div> <button class="button_index">Click</button>  </div>
+            <div id="border_3"> <h4 class="tittle_passions">Blockchain</h4> <div id="img_3"><img src="image/blockchain_screen.jpg"> </div> <button id="button_index_3" >Click</button>  </div>
                
                 </div>
+                <div id="transition"> </div>
 
+<script>
+    
+    
+    var butoon_index_3 = document.getElementById('button_index_3');
+      var butoon_index_2 = document.getElementById('button_index_2');
+      var butoon_index_1 = document.getElementById('button_index');
+     var transition_1 = document.getElementById('transition')
+    var border_3 =document.getElementById('border_3');
+      var border_2 =document.getElementById('border_2');
+      var border_1 =document.getElementById('border_1');
+    
+     butoon_index_3.addEventListener('click', function (){
+                 
+       if(window.innerWidth>680){
+             border_2.style.transform ="translateY(150%)"; 
+             border_1.style.transform ="translateY(150%)"; 
+            
+         
+         
+          setTimeout(function(){
+                                                                  
+                            border_3.style.transform ="translatex(-110%)";  
+                            transition_1.style.zIndex="1000";                                        
+                                         
+                                        },200);
+         
+            setTimeout(function(){
+                                                                  
+                            transition_1.style.opacity="1" ;
+                           
+                                         
+                                        },800);
+                                                    
+                   setTimeout(function(){
+                                                                  
+                                     
+                                     window.location= "blockchain.html";                                     
+                                         
+                                        },1200);
+                         }
+         
+          else { 
+               
+               setTimeout(function(){
+                             transition_1.style.zIndex="1000";                                       
+                            transition_1.style.opacity="1" ;                                                                             
+                                         
+                                        },800);
+                                                    
+                   setTimeout(function(){
+                                                                  
+                                     
+                                     window.location= "blockchain.html";                                     
+                                         
+                                        },1200);
+               
+               
+                }
+             
+             });
+    
+    
+    
+    
+    
+   
+    /*********************************/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       butoon_index_2.addEventListener('click', function (){
+                 
+       if(window.innerWidth>680){
+             border_3.style.transform ="translatey(150%)"; 
+             border_1.style.transform ="translatey(150%)"; 
+             transition_1.style.zIndex="1000";
+            
+         
+         
+         
+            setTimeout(function(){
+                                                                  
+                            transition_1.style.opacity="1" ;                                                                             
+                                         
+                                        },700);
+                                                    
+                   setTimeout(function(){
+                                                                  
+                                     
+                                     window.location= "ia.html";                                     
+                                         
+                                        },1100);
+       }
+           else {
+               
+                  setTimeout(function(){
+                             transition_1.style.zIndex="1000";                                       
+                            transition_1.style.opacity="1" ;                                                                             
+                                         
+                                        },800);
+                                                    
+                   setTimeout(function(){
+                                                                  
+                                     
+                                     window.location= "ia.html";                                     
+                                         
+                                        },1200);
+               
+           }
+             
+             });
+    
+    
+       butoon_index_1.addEventListener('click', function (){
+                 
+         if(window.innerWidth>680){
+             border_2.style.transform ="translateY(150%)"; 
+             border_3.style.transform ="translateY(150%)"; 
+               transition_1.style.zIndex="1000";
+            
+         
+         
+          setTimeout(function(){
+                                                                  
+                            border_1.style.transform ="translatex(120%)";                                                                                
+                                         
+                                        },200);
+         
+            setTimeout(function(){
+                                                                  
+                            transition_1.style.opacity="1" ;                                                                             
+                                         
+                                        },800);
+                                                    
+                   setTimeout(function(){
+                                                                  
+                                     
+                                     window.location= "jeux_video.html";                                     
+                                         
+                                        },1200);
+         }
+           else { 
+               
+               setTimeout(function(){
+                             transition_1.style.zIndex="1000";                                       
+                            transition_1.style.opacity="1" ;                                                                             
+                                         
+                                        },800);
+                                                    
+                   setTimeout(function(){
+                                                                  
+                                     
+                                     window.location= "jeux_video.html";                                     
+                                         
+                                        },1200);
+               
+               
+                }
+           
+             
+             });                                          
 
+                
+</script>
 
 
     

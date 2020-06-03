@@ -1,0 +1,1193 @@
+body{
+   
+  font-family: 'Montserrat', sans-serif;
+   
+}
+
+
+:root {
+  --level-one: translateZ(3rem);
+  --level-two: translateZ(6rem);
+  --level-three: translateZ(10rem);
+}
+
+figure {
+    
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    display: inline-flex;
+    transition: .2s;
+    margin: -0% -0%;
+     z-index: 11;
+   
+}
+
+
+h4{
+   position: relative;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+ font-family: 'Montserrat', sans-serif;
+   z-index: 10;
+    height: 95%;
+    
+   
+   
+   
+  }
+img{
+    
+    width:100%;
+    height: 100%;
+    opacity: 100%;
+    border-radius: 5px;
+    z-index: 10;
+    
+}
+
+
+
+
+/* ***************************   BLOCKCHAIN  **************************** */
+
+/* ***************************   PART 1  **************************** */
+#container_1_btc{
+    right: 0;
+    top: 0;
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    overflow: hidden;
+    
+ 
+}
+
+#container_1_btc ul{
+    position: absolute;
+    z-index: 600;
+    width: 30%;
+    display: inline-flex;
+    height: 1%;
+     right: 3%;
+    margin: 0;
+    padding-top: 10px;
+   
+    
+    
+}
+
+
+#transition{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    top: 0;
+    z-index: 1000;
+   
+    
+    
+        
+    
+}
+
+
+ul li{
+   position: absolute;
+    float: left;
+    width:30%;
+    height: 35px;
+     display: table-cell;
+    align-content:center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-right: -2em;
+    font-weight: bold;
+     transition: .8s;
+      transition: .8s;
+    text-decoration: none;
+    color: grey
+    
+}
+
+#nav_1{
+    padding-left: 5%;
+   left: 0;  
+     display: grid;
+     cursor: pointer;
+
+   
+    
+  
+}
+
+#nav_2{
+    left: 30.5%;
+    cursor: pointer;
+      display: grid;
+   
+}
+
+
+#nav_3{
+   left: 61%;
+         display: grid;
+     cursor: pointer;
+
+   
+}
+
+ul li:hover{
+    color: white;
+    
+    
+}
+
+a{
+    transition: .8s;
+    text-decoration: none;
+    color: grey
+}
+
+
+#tittle_blockchain{
+    z-index: 15;
+    position: absolute;
+    color: #03e9f4;
+    z-index: 350;
+    left: 25%;
+    width: 42%;
+    height: 20%;
+    margin-top: 0;
+    padding: 0;
+    
+   
+    
+    
+    
+}
+
+#tittle_blockchain p{
+    position: absolute;
+       font-size: 2.3em;
+    top: 30%;
+    left: 20%;
+    margin: 0;
+    
+    
+    
+}
+
+
+
+#tittle_blockchain h5{
+   
+    font-size: 2.9em;
+    margin: 0;
+    
+}
+
+
+
+
+#background_color_btc{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+   background: rgb(112,112,112);
+background: radial-gradient(circle, rgba(112,112,112,1) 0%, rgba(0,0,0,1) 61%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%);
+    z-index: 14;
+    opacity: 0.80;
+    
+    
+}
+
+
+
+
+
+#ramdom{
+    position: absolute;
+    z-index: 90;
+    left: 57%;
+    bottom: 4%;
+    width: 8%;
+    height: 5%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: table-cell;
+    justify-content: center;
+    letter-spacing: .3rem;
+    transition: .5s;
+    outline: none;
+     cursor: pointer;
+    transform: rotateY(200%);
+    
+}
+
+#ramdom:hover{
+    background-color: white;
+    color: #150840;
+    
+}
+
+
+#ramdom_2{
+    position: absolute;
+    z-index: 90;
+    left: 38%;
+    bottom: 4%;
+    width: 8%;
+    height: 5%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: table-cell;
+    justify-content: center;
+    letter-spacing: .3rem;
+    transition: .5s;
+    outline: none;
+     cursor: pointer;
+      transform: rotateY(200%);
+    
+}
+
+#ramdom_2:hover{
+    background-color: white;
+    color: #150840;
+    
+}
+
+#ramdom_3{
+    position: absolute;
+    z-index: 90;
+    z-index: 90;
+     display: block;
+    left: 3%;
+    top: 2.5%;
+    width: 12%;
+    height: 5%;
+    background: none;
+    border: 2px solid white;
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: table-cell;
+    justify-content: center;
+    letter-spacing: .3rem;
+    transition: .5s;
+    outline: none;
+    transform: translateY(-150%);
+    
+}
+
+#scroll_btc{
+    position: relative;
+     height: 100%;
+    width: 100%;
+    transition: .5s;
+   
+   
+}
+   
+#point{
+   position: absolute;
+     width: 1px;
+    height: 1%;
+    bottom: 6%;
+    left: 48.5%;
+    z-index: 500;
+    right: 2%;
+    border-radius: 100%;
+        border:none;
+     background: white;
+    outline: none;
+     cursor: pointer;
+    
+}
+#point2{
+   position: absolute;
+     width: 1px;
+    height: 1%;
+   bottom: 6%;
+    left: 50.5%;
+    z-index: 500;
+    right: 2%;
+    border-radius: 100%;
+     border:none;
+     background: grey;
+   outline: none;
+     cursor: pointer;
+}
+   
+#point3{
+     position: absolute;
+     width: 1px;
+    height: 1%;
+   bottom: 6%;
+    left: 52.5%;
+    z-index: 500;
+    right: 2%;
+    border-radius: 100%;
+        border:none;
+     background: grey;
+     outline: none;
+     cursor: pointer;
+}
+   
+#point4{
+     position: absolute;
+     width: 1px;
+    height: 1%;
+    bottom: 6%;
+    left: 54.5%;
+    z-index: 500;
+    right: 2%;
+    border-radius: 100%;
+     border:none;
+    background: grey;
+     outline: none;
+     cursor: pointer;
+}
+   
+
+
+#content_1_btc{
+    
+    position: absolute;
+    width: 100%;
+        height :100%;
+    color: #b72714;
+    opacity:none;
+    z-index: 150; 
+  
+    
+}
+
+
+#content_lecture{
+    z-index: 15;
+    width: 40%;
+    height: 70%;
+    position: absolute;
+     z-index: 150;
+    top:20%;
+    left: 3%;
+    color: white;
+    text-align: center;
+    
+}
+
+#content_lecture p{
+    font-size: 1.5em;
+}
+
+#one{
+  position: absolute;
+    top: 0;
+    z-index: 1;
+       transition: 1s;
+    
+    
+   
+
+}
+
+#two{
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+       transition: 1s;
+    
+   
+}
+
+#three{
+    position: absolute;
+    z-index: -1;
+      top: 200%;
+       transition: 1s;
+    
+  
+}
+
+#four{
+    position: absolute;
+    z-index: -1;
+      top: 300%;
+       transition: 1s;
+     
+    
+}
+
+#master_1{
+    position: absolute;
+    z-index: 200;
+    width: 29%;
+    height: 50%;
+    right: 4%;
+    top: 30%;
+    
+    
+        
+}
+
+
+#master_content{
+       position: absolute;
+    z-index: 220;
+    width: 99%;
+    height: 99%;
+       background-size: cover;
+  background-blend-mode: overlay;
+       transform-style: preserve-3d;
+      transition: transform 1s;
+ 
+    
+
+   
+        
+    
+}
+
+#master_1:hover #master_content{
+   transform: rotateY(0.5turn);
+    transition: 1s;
+}
+
+#master_back{
+     position: absolute;
+    z-index: 200;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+     transform-style: preserve-3d;
+      transition: transform 1s;
+    transform: rotateY(0.5turn);
+    background: #03e9f4;
+    border-radius: 5px;  
+    text-align: center;
+    color: #030e21;
+  
+}
+
+#master_content:before{
+    content: '';
+    position: absolute;
+       width: 99%;
+    height: 99%;
+     transform: var(--level-two);
+     transform-style: preserve-3d;
+    border-radius: 5px;         
+    
+}
+
+#master_content:hover:before{
+    transform: rotateY(1turn);
+    transition: 1s;
+     transform-style: preserve-3d;
+}
+
+
+
+#master_back:before{
+    content: '';
+    position: absolute;
+    left: 0%;
+       width: 99%;
+    height: 99%;
+    border: 1px solid black;
+     transform: var(--level-three);
+     transform-style: preserve-3d;
+    border-radius: 5px;         
+    
+}
+#master_back h3{
+    padding: 5% 5%;
+     transform: var(--level-two);
+       
+}
+
+#master_back p{
+    padding: 5% 5%;
+       transform: var(--level-two); 
+}
+
+/* **************** PARTIE 2 **************** */
+
+
+
+
+#background_color_btc_2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+background: rgb(112,112,112);
+background: radial-gradient(circle, rgba(112,112,112,1) 0%, rgba(0,0,0,1) 61%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%);
+    z-index: 14;
+      opacity: 0.80;
+    top: 100%;
+    
+    
+}
+
+
+
+#content_2_btc h5{
+    position: absolute;
+    top: 510%;
+}
+#content_2_btc p{
+      position: absolute;
+    top: 519%;
+    
+}
+
+
+#content_2_btc #tittle_blockchain p{
+    position: absolute;
+       font-size: 2.3em;
+    top: 540%;
+    left: 20%;
+    margin: 0;
+    
+    
+    
+}
+
+#content_3_btc #tittle_blockchain p{
+    position: absolute;
+       font-size: 2.3em;
+    font-weight: bold;
+    top: 1040%;
+    left: 20%;
+    margin: 0;
+    
+    
+    
+}
+
+
+#master_content_2{
+       position: absolute;
+    z-index: 600;
+    width: 100%;
+    height: 100%;
+       background-size: cover;
+  background-blend-mode: overlay;
+       transform-style: preserve-3d;
+      transition: .8s;
+    
+
+   
+        
+    
+}
+
+
+#master_2{
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    right: 2%;
+    top: 130%;
+    
+}
+
+
+#master_2:hover #master_content_2{
+     z-index:600;
+   transform: rotateY(0.5turn);
+    transition: .8s;
+}
+
+#master_back_2{
+     position: absolute;
+    z-index: 600;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+     transform-style: preserve-3d;
+      transition:  .8s;
+    transform: rotateY(0.5turn);
+    background: #030e21;
+    border-radius: 5px;  
+    text-align: center;
+    color: white;
+  
+}
+
+#master_content_2:before{
+    content: '';
+    position: absolute;
+       width: 99%;
+    height: 99%;
+    border: 1px solid white;
+     transform: var(--level-two);
+     transform-style: preserve-3d;
+    border-radius: 5px;         
+    
+}
+
+#master_back_2 h3{
+      font-size: 1em;
+    padding: 5% 5%;
+     transform: var(--level-two);
+       
+}
+
+#master_back_2 p{
+    font-size: 5em;
+    padding: 5% 5%;
+       transform: var(--level-two); 
+}
+
+
+#content_lecture_2 p{
+    width: 25%;
+    height: 70%;
+    position: absolute;
+     z-index: 150;
+    top:125%;
+    left: 5%;
+    color: white;
+    font-size: 1.45em;
+    text-align: center;
+}
+
+
+
+#background_color_btc_2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+background: rgb(112,112,112);
+background: radial-gradient(circle, rgba(112,112,112,1) 0%, rgba(0,0,0,1) 61%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%);
+      opacity: .65;
+    top: 100%;
+    
+    
+}
+
+/* ********************************* PART 3 ********************************/
+
+#content_3_btc h5{
+    position: absolute;
+    top: 1010%;
+}
+#content_3_btc p{
+      position: absolute;
+    top: 1019%;
+    
+}
+
+
+#master_content_3{
+       position: absolute;
+    z-index: 600;
+    width: 100%;
+    height: 100%;
+       background-size: cover;
+  background-blend-mode: overlay;
+       transform-style: preserve-3d;
+      transition: .8s;
+    
+
+   
+        
+    
+}
+
+
+#master_3{
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    right: 2%;
+    top: 230%;
+    
+}
+
+
+#master_3:hover #master_content_2{
+     z-index:600;
+   transform: rotateY(0.5turn);
+    transition: .8s;
+}
+
+#master_back_3{
+     position: absolute;
+    z-index: 600;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+     transform-style: preserve-3d;
+      transition:  .8s;
+    transform: rotateY(0.5turn);
+    background: #030e21;
+    border-radius: 5px;  
+    text-align: center;
+    color: white;
+  
+}
+
+#master_content_3:before{
+    content: '';
+    position: absolute;
+       width: 99%;
+    height: 99%;
+    border: 1px solid white;
+     transform: var(--level-two);
+     transform-style: preserve-3d;
+    border-radius: 5px;         
+    
+}
+
+#master_back_3 h3{
+    padding: 5% 5%;
+     transform: var(--level-two);
+       
+}
+
+#master_back_3 p{
+    padding: 5% 5%;
+       transform: var(--level-two); 
+}
+
+#content_lecture_3{
+    
+    top: 5%;
+}
+#content_lecture_3 p{
+    width: 35%;
+    height: 70%;
+    position: absolute;
+     z-index: 150;
+    top:215%;
+    left: 5%;
+    color: white;
+    font-size: 1.45em;
+    text-align: center;
+    
+}
+
+
+#background_color_btc_3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+background: rgb(34,12,110);
+background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%, rgba(16,5,52,1) 47%, rgba(4,0,24,1) 62%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%);
+    z-index: 14;
+    opacity: 0.55;
+    top: 200%;
+    
+    
+}
+
+
+/**************************** PART 4 **********************/
+
+#content_4_btc h5{
+    position: absolute;
+    top: 1510%;
+    color: black;
+    font-size: 3.5em;
+    border: 1px solid white;
+    background: white;
+    border-radius: 5px;
+}
+
+
+
+
+#hello{
+    position: absolute;
+    width: 80%;
+   height: 70%;
+    background: black;
+    z-index: 5000;
+    left: 10%;
+    opacity: 0.90;
+    color: white;
+     z-index: 150;
+    top:315%;
+    color: white;
+  
+    
+}
+
+#hello p{
+     top:2%;  
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 5% 5%;
+    
+}
+
+#background_color_btc_4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255,0,78);
+background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%, rgba(57,22,126,1) 52%, rgba(49,15,103,1) 65%, rgba(36,9,71,1) 76%, rgba(37,7,70,1) 80%, rgba(30,4,47,1) 88%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%);
+    z-index: 14;
+    opacity: 0.55;
+    top: 300%;
+    
+    
+}
+
+
+/***************** MEDIA QUERIES ***********************/
+
+@media  all and (max-width:720px) and (min-width:200px) {
+
+    #master_1{
+        visibility: hidden;
+    }
+    
+    
+#tittle_blockchain{
+    top: 7%;
+    left: 5%;
+    width: 90%;
+    font-size: 0.6em;
+    
+    }
+    #tittle_blockchain p{
+        top: 20%;
+    } 
+    
+    #content_2_btc #tittle_blockchain p{
+        position: absolute;
+        top: 530%;
+        font-size: 1.6em;
+       
+    }
+    
+    #content_2_btc #tittle_blockchain h5{
+      font-size: 2.5em;
+        width: 80%;
+    }
+    
+      #content_3_btc #tittle_blockchain p{
+        position: absolute;
+        top: 1030%;
+        font-size: 1.6em;
+       
+    }
+    
+    #content_3_btc #tittle_blockchain h5{
+      font-size: 2.5em;
+        width: 80%;
+    }
+    
+    
+      #content_lecture {
+        font-size:0.78em;
+          width: 90%;
+          height: 70%;
+          opacity: 0.80;
+          top: 16%;
+           left: 5%;
+              background: black;
+          border-radius: 15px;
+                 
+    }
+    
+        #content_lecture_2 {
+          width: 90%;
+          height: 70%;
+           left: 5%;
+              background: black;
+          border-radius: 15px;
+    }
+    
+   
+       
+    #content_lecture_2 p{
+        font-size: 1.2em;
+        width: 90%;
+          height: 70%;
+        top: 124%;
+        
+        
+    }
+    
+    #content_lecture_3 {
+            font-size: 1em;
+          width: 90%;
+          height: 70%;
+          top: 15%;
+           left: 5%;
+              background: black;
+          border-radius: 15px;
+    }
+    
+   
+       
+    #content_lecture_3 p{
+          font-size: 1.2em;
+        width: 90%;
+          height: 70%;
+        
+        
+    }
+    
+    #master_2{
+       visibility: hidden; 
+    }
+    
+ 
+     #ramdom {
+     width: 35%;
+         left:60%;
+        
+    }
+    
+     #ramdom_2 {
+          width: 35%;
+         left: 6%;
+    }
+    
+     #ramdom_3 {
+     height: 5%;
+         width: 35%;
+         top: 0.5%; 
+         left: 10%;
+    }
+    
+        
+       #nav_1{
+           top: 50%;
+           left:-35%;
+           
+   
+         }
+
+         #nav_2{
+             
+             top: 50%;
+           left:2%;
+    
+             }
+
+
+          #nav_3{
+              top: 50%;
+           left:50%;
+       
+            }
+    
+       
+#point{
+left: 43%;
+    
+}
+#point2{
+    left: 48%;
+  
+}
+   
+#point3{
+    left: 53%;
+    
+}
+   
+#point4{
+    left: 57%;
+   
+}
+   
+    #hello p{
+        font-size: 1.1em;
+    }
+    
+        
+    
+
+      }
+
+@media  all and (max-width:1800px)and (min-width:724px){
+    
+    #content_2_btc #tittle_blockchain p{
+        top:565%;
+    }
+    
+    #content_3_btc #tittle_blockchain p{
+        top:1035%;
+    }
+    
+    
+    #tittle_blockchain p{
+         top:60%;
+    }
+      
+    #content_lecture p{
+        font-size:1.3em;
+        width: 135%;
+        
+       
+    }
+    
+    #content_lecture{
+        top: 30%;
+    }
+    
+       
+    #content_lecture_2 p{
+        font-size:1.3em;
+        width: 50%;
+        
+    }
+    
+       
+    #content_lecture_3 p{
+        font-size:1.3em;
+         width: 50%;
+        
+    }
+    
+    #hello{
+        font-size: 0.8em;
+    }
+    
+      #ramdom{
+        width: 15%;
+    }
+    
+     #ramdom_2{
+           width: 15%;
+         left: 32%;
+        
+    }
+    
+    #ramdom_3{
+        width: 20%
+    }
+    
+    
+    @media  all and (max-width:1800px)and (min-width:724px) and (max-height:824px){
+    
+        
+        #tittle_blockchain p{
+           top: 75%;
+        }   
+        
+        
+    #content_2_btc #tittle_blockchain p{
+        top:578%;
+    }
+    
+    #content_3_btc #tittle_blockchain p{
+        top:1045%;
+    }
+        #content_lecture{
+            
+            width: 50%;
+            height: 20%;
+        }
+    #content_lecture p{
+        font-size:1.1em;
+        width: 50%;
+            height: 20%;
+       
+       
+    }
+    
+       
+    #content_lecture_2 p{
+        font-size:1.2em;
+        width: 50%;
+        
+    }
+    
+       
+    #content_lecture_3 p{
+         font-size:1.2em;
+         width: 50%;
+        
+    }
+    
+    #hello{
+        font-size: 0.8em;
+    }
+        
+    }
+   
+    @media  all and (max-width:999px) and (min-width:650px){
+        #content_1_btc #tittle_blockchain p{
+            top: 40%;
+            
+        }
+        
+        
+        
+        #content_2_btc #tittle_blockchain p{
+        top:565%;
+    }
+    
+    #content_3_btc #tittle_blockchain p{
+        top:1035%;
+    }
+        
+        #tittle_blockchain h5{
+        
+            font-size: 2em;
+        }
+        
+        #tittle_blockchain p{
+            font-size: 1.5em;
+        }
+      
+        #content_lecture{
+            left: 20%;
+            top: 17%        }
+    #content_lecture p{
+         
+    font-size: 1.2em;
+       
+    }
+    
+       
+    #content_lecture_2 p{
+        font-size:1.2em;
+        width: 50%;
+        left: 20%;
+        
+    }
+    
+       
+    #content_lecture_3 p{
+        font-size:1.2em;
+         width: 50%;
+         left: 20%;
+        
+    }
+    
+    #hello{
+        font-size: 0.8em;
+    }
+        
+        #master_2{
+            visibility: hidden;
+        }
+        
+         #master_1{
+            visibility: hidden;
+        }
+        
+    }
+ 
