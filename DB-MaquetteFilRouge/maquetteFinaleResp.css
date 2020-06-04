@@ -1,0 +1,244 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.bg-rouge{
+    background-color: transparent;                   /*#ea5a00;*/
+    /*opacity: 0.50;*/
+}
+.nav-link{
+    color: rgb(0, 0, 0)!important;
+    opacity: 1!important;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255)!important;
+    opacity: 1!important;
+    background-color:rgba(118, 0, 0)!important;
+}
+.reseaux{
+    width: 2.3em;
+}
+.logo{
+    width: 4em;
+}
+.titreLogo{
+    writing-mode: vertical-lr;
+}
+.spinner-grow{
+    display: none;
+}
+.SeparateurMarron{
+    border: 2px solid #c6692f;
+    width: 350px;
+    transform: rotate(90deg);
+    margin-top: 7em;
+}
+.blocTextHero{
+    margin-top: 10em;
+    margin-right: -5em;
+}
+.textesHero{
+    margin-right: -6em;
+}
+.GrosTitre{
+    font-size: 5em;
+}
+.bgJumbotron{
+    background-color: transparent!important;
+}
+.SeparateurHero{
+    border: 2px solid #c6692f;
+    width: 250px;
+    transform: rotate(90deg);
+}
+.text-blanc{
+    color: #dedcdc;
+}
+/*ENCART*/
+.roundedEncart{
+    border-radius: 20px;
+    margin-top: -5em;
+    height: 20em; 
+}
+.cigale1{
+    position: relative;
+    top: -30vh;
+    transform: rotate(-27deg);
+    left: -5vw;
+}
+.cigale2{
+    position: relative;
+    top: -20vh;
+    transform: rotate(20deg);
+}
+.hrProfil{
+    position: relative;
+    right: 0;
+    width: 52vw;
+    background-color: chocolate;
+    font-size: 5px;
+    margin-top: 10vh;
+}
+.hrProfil2{
+    position: relative;
+    width: 52vw;
+    background-color: chocolate;
+    font-size: 5px;
+    margin-top: 5vh;
+}
+/* SLIDE PROFIL */
+.profilSlide{
+    position: absolute;
+    
+    left: 29vw;
+    width: 60%;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.profilSlide li{
+    list-style: none;
+    position: relative;
+    width: 15%;
+    height: 45vh;
+    border-right: 3px solid rgb(255, 255, 255);
+    float: left;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    overflow: hidden;
+}
+.profilSlide li:nth-child(1){
+    background: url(img/adrien.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(2){
+    background: url(img/aurelien.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(3){
+    background: url(img/bilal.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(4){
+    background: url(img/damien.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(5){
+    background: url(img/david.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(6){
+    background: url(img/fanny.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(7){
+    background: url(img/jeremy.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(8){
+    background: url(img/karima.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(9){
+    background: url(img/kenji.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(10){
+    background: url(img/marie.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(11){
+    background: url(img/marina.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide li:nth-child(12){
+    background: url(img/mathieu.png);
+    background-size: cover;
+    background-position: left;
+}
+.profilSlide:hover li{
+    width: 9%;
+}
+.profilSlide li:hover{
+    width: 32%;
+}
+.profilSlide li .contenu{
+    position: absolute;
+    bottom: -200%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+}
+.profilSlide li:hover .contenu{
+    bottom: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    opacity: 1;
+}
+.logoFooter{
+    width: 5vw;
+}
+.copyright{
+    position: absolute;
+    margin-top: 56vh;
+    margin-left: 2vw;
+}
+.contactFooter{
+    position: absolute;
+    margin-left: 65vw;
+    margin-top: 8vh;
+    transform: rotate(-15deg);
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .GrosTitre{
+        font-size: 3.5em;
+    }
+    .col-md-4{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        display: flex;
+        justify-content: center;
+    }
+    .TxtIntro{
+        margin-left: 11rem;
+    }
+    
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    .bloc{
+        
+    }
+    .GrosTitre{
+        font-size: 4.5em;
+    }
+    .blocTextHero{
+        margin-top: 5em;
+    }
+    .col-lg-4{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        display: flex;
+        justify-content: center;
+    }
+    .roundedEncart{
+        height: 65vh;
+    }
+    .equipeDev{
+        
+    }
+}
