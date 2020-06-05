@@ -1,0 +1,165 @@
+.bg-blanc{
+    background-color: white;
+    height: 3400px;  box-shadow: 0px 4px 30px 7px black;
+}
+/* .bg-jumbotron{
+    background-color: white;
+    border-radius: 20px 110px 20px 130px;
+    box-shadow: 0px 4px 30px 7px black;
+} */
+/* .jumbotronBorder{
+    box-shadow: 0 0 0 1px rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px 110px 20px 130px;
+} */
+.nav-link{
+    color: rgb(255, 196, 0)!important;
+    opacity: 1!important;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255)!important;
+    opacity: 1!important;
+    background-color:rgb(255, 0, 0)!important;
+}
+.navbar-toggler{
+    margin: 0 auto;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.active{
+    color: rgb(255, 255, 255)!important;
+    opacity: 1!important;
+    background-color:rgb(255, 0, 0)!important;
+}
+.paragrapheBlanc{
+    color: white;
+    opacity: 1;
+}
+.hrBlanc{
+    background-color: white;
+}
+.sizePyramyd{
+    height: 100%;
+}
+.sizeBeauvoir{
+    
+    width: 100%;
+}
+.sizeNBstudio{
+    height: 100%;
+}
+.sizeBauhaus{
+    height: 100%;
+}
+.titreBorder{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3px 0;
+}
+/* SCROLL TOP */
+html {
+    scroll-behavior: smooth;
+    transition-duration: 2s;
+  }
+.scroll{
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+.scroll:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/*APRES GALLERIE*/
+.hrApresGallerie{
+    border-top: 1px solid black;
+    width: 20em;
+    box-shadow: 0px 2px 10px 1px black;
+}
+/* COLLAPSE */
+.card-header{
+    outline: 1px solid black;
+}
+.btn-link:focus{
+    box-shadow: 0 0 0 .2rem rgba(255, 0, 0, 0.25)!important;
+}
+.fa-facebook{
+    width: 1em;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .bg-blanc{
+        height: 12280px;
+    }
+    .jumbotron .bg-jumbotron{
+        background-color: white;
+        opacity: 1;
+        border-radius: 20px;
+    }
+    .paragrapheBlanc{
+        color: black;
+    }
+    div .text-light{
+        color: black!important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .bg-blanc{
+        height: 9800px;
+    }
+    .nav-link{
+        margin: 0;
+        padding: 0;
+    }
+    .jumbotron{
+        margin-top: 15em;
+    }
+    .jumbotron .bg-jumbotron{
+        background-color: white;
+        opacity: 1;
+        border-radius: 20px;
+    }
+    .paragrapheBlanc{
+        color: black;
+    }
+    div .text-light{
+        color: black!important;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .bg-blanc{
+        height: 7900px;
+    }
+    .jumbotron{
+        margin-top: 15em;
+    }
+    .jumbotron .bg-jumbotron{
+        background-color: white;
+        opacity: 1;
+        border-radius: 20px;
+    }
+    .paragrapheBlanc{
+        color: black;
+    }
+    div .text-light{
+        color: black!important;
+    }
+}
+@media screen and (max-width: 576px){
+    .bg-blanc{
+        height: 6900px;
+    }
+    .jumbotron{
+        margin-top: 15em;
+    }
+    .jumbotron .bg-jumbotron{
+        background-color: white;
+        opacity: 1;
+        border-radius: 20px;
+    }
+    .paragrapheBlanc{
+        color: black;
+    }
+    div .text-light{
+        color: black!important;
+    }
+}

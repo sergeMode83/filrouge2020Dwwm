@@ -1,0 +1,149 @@
+.bloc{
+  height: 3200px;  
+  box-shadow: 0px 4px 30px 7px black;
+}
+.bg-light{
+    opacity: 1;
+}
+.nav-link{
+    color: rgb(0, 0, 0)!important;
+    opacity: 1!important;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255)!important;
+    opacity: 1!important;
+    background-color:rgb(2, 107, 16)!important;
+}
+.navbar-toggler{
+  margin: 0 auto;
+}
+.navbar-collapse{
+  text-align: center;
+}
+.active{
+    color: rgb(255, 255, 255)!important;
+    opacity: 1!important;
+    background-color:rgb(2, 107, 16)!important;
+}
+.position-absolute{
+  z-index: 1000;
+}
+.jumbotron{
+    margin-top: 20em;
+}
+.image{
+    opacity: 1!important;
+}
+/* SCROLL TOP */
+html {
+  scroll-behavior: smooth;
+  transition-duration: 2s;
+}
+.scroll{
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+.scroll:hover{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* FLIP BOX */
+ /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+ .flip-box {
+    background-color: transparent;
+    width: 340px;
+    height: 340px;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  } 
+  
+/* FIN FLIP BOX */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .bloc{
+    height: 5200px;
+  }
+  .flip-box-back{
+    background-color: white;
+  }
+  .position-absolute{
+    z-index: 1000;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .bloc{
+    height: 9000px;
+  }
+  .row .flip-box{
+    padding-left: 0.2em;
+  }
+  .position-absolute{
+    z-index: 1000;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+  .bloc{
+    height: 9000px;
+  }
+  .col-sm-12{
+    display: flex;
+    justify-content: center;
+  }
+  .flip-box-back{
+    background-color: transparent;
+  }
+  .row .flip-box{
+    display: flex;
+    justify-content: center;
+  }
+  .position-absolute{
+    z-index: 1000;
+  }
+}
+@media screen and (max-width: 576px){
+  .bloc{
+    height: 8000px;
+  }
+  .flip-box-back{
+    background-color: transparent;
+  }
+  .position-absolute{
+    z-index: 1000;
+  }
+}
